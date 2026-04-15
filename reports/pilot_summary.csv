@@ -1,0 +1,4 @@
+run_id,task_present,output_present,notes_present,task_size_bytes,output_size_bytes,notes_size_bytes,task_length_chars,output_length_chars,notes_length_chars,all_expected_files_present,task_nonempty,output_nonempty,notes_nonempty,has_any_content,is_minimally_complete
+run-20260415-001,True,True,True,0,0,0,0,0,0,True,False,False,False,False,False
+run-20260415-002,True,True,True,0,0,0,0,0,0,True,False,False,False,False,False
+run-20260415-003,True,True,True,0,0,0,0,0,0,True,False,False,False,False,False
