@@ -10,20 +10,18 @@ It does not infer run behavior, memory quality, or experimental findings beyond 
 
 - Fixture directories found: 3
 - Runs with all expected files present: 3
-- Runs with non-empty task and output files: 0
-- Runs with any non-empty file content: 0
+- Runs with non-empty task and output files: 3
+- Runs with any non-empty file content: 3
 
 | run_id | task | output | notes | task chars | output chars | notes chars | minimally complete |
 | --- | --- | --- | --- | ---: | ---: | ---: | --- |
-| run-20260415-001 | True | True | True | 0 | 0 | 0 | False |
-| run-20260415-002 | True | True | True | 0 | 0 | 0 | False |
-| run-20260415-003 | True | True | True | 0 | 0 | 0 | False |
+| run-20260415-001 | True | True | True | 477 | 7864 | 534 | True |
+| run-20260415-002 | True | True | True | 707 | 11055 | 537 | True |
+| run-20260415-003 | True | True | True | 512 | 6577 | 500 | True |
 
 ## What Is Missing
 
-- `run-20260415-001`: empty task_prompt.md, empty final_output.md, empty notes.md
-- `run-20260415-002`: empty task_prompt.md, empty final_output.md, empty notes.md
-- `run-20260415-003`: empty task_prompt.md, empty final_output.md, empty notes.md
+- No missing or empty expected files were observed in the current fixtures.
 
 ## What A Full Memory Experiment Would Need Next
 
