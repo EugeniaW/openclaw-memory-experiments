@@ -1,0 +1,36 @@
+===== gtm_constraints_002 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: gtm_constraints_002
+Domain: gtm_constraints
+Topic: security-review-blocks-self-serve
+
+Initial facts:
+- The GTM team planned to push a self-serve launch for enterprise prospects in May.
+- The pricing page and in-product checkout were considered launch-ready.
+- Sales planned to route large inbound accounts into the self-serve funnel first.
+
+Updates:
+- {'old_fact': 'The GTM team planned to push a self-serve launch for enterprise prospects in May.', 'new_fact': 'Enterprise self-serve is blocked until a security review completes in August.'}
+- {'old_fact': 'Sales planned to route large inbound accounts into the self-serve funnel first.', 'new_fact': 'Large inbound accounts now require an assisted sales motion until the security review clears.'}
+
+Distractors:
+- SMB trial conversion has improved this month.
+- The design team already approved new pricing page copy.
+
+Final task:
+Give the final recommendation based on the latest facts.
+Include:
+- recommended option
+- rejected options
+- why chosen
+- why not chosen
+- resource implications
+- execution risks
+- 90-day action plan
+
+Important:
+Use the latest updated facts. Do not rely on superseded facts.
+Make it clear which updated facts drove the final recommendation.

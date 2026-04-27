@@ -1,0 +1,266 @@
+[
+  {
+    "scenario_id": "gtm_constraints_001",
+    "domain": "gtm_constraints",
+    "topic": "eu-market-entry-budget-freeze",
+    "initial_facts": [
+      "The team planned to launch a Germany outbound campaign in Q3.",
+      "The paid acquisition budget for Germany was approved at $180000.",
+      "The plan depended on field events and SDR hiring in Germany."
+    ],
+    "updates": [
+      {
+        "old_fact": "The paid acquisition budget for Germany was approved at $180000.",
+        "new_fact": "The Germany expansion budget is now frozen at $0 for the next two quarters."
+      },
+      {
+        "old_fact": "The plan depended on field events and SDR hiring in Germany.",
+        "new_fact": "The team must avoid net-new SDR hiring and field events in Germany until the freeze lifts."
+      }
+    ],
+    "distractors": [
+      "Brand awareness in Germany is still rising quarter over quarter.",
+      "A reseller prospect asked for a follow-up deck."
+    ],
+    "expected_latest_facts": [
+      "The Germany expansion budget is now frozen at $0 for the next two quarters.",
+      "The team must avoid net-new SDR hiring and field events in Germany until the freeze lifts."
+    ],
+    "expected_decision_implications": {
+      "recommended_action_keywords": [
+        "defer the germany launch",
+        "pause germany outbound",
+        "shift to low-cost partner follow-up"
+      ],
+      "stale_action_keywords": [
+        "launch germany outbound in q3",
+        "hire sdrs in germany",
+        "run germany field events"
+      ],
+      "required_rationale_keywords": [
+        "budget is now frozen at $0",
+        "avoid net-new sdr hiring",
+        "avoid field events"
+      ]
+    }
+  },
+  {
+    "scenario_id": "gtm_constraints_002",
+    "domain": "gtm_constraints",
+    "topic": "security-review-blocks-self-serve",
+    "initial_facts": [
+      "The GTM team planned to push a self-serve launch for enterprise prospects in May.",
+      "The pricing page and in-product checkout were considered launch-ready.",
+      "Sales planned to route large inbound accounts into the self-serve funnel first."
+    ],
+    "updates": [
+      {
+        "old_fact": "The GTM team planned to push a self-serve launch for enterprise prospects in May.",
+        "new_fact": "Enterprise self-serve is blocked until a security review completes in August."
+      },
+      {
+        "old_fact": "Sales planned to route large inbound accounts into the self-serve funnel first.",
+        "new_fact": "Large inbound accounts now require an assisted sales motion until the security review clears."
+      }
+    ],
+    "distractors": [
+      "SMB trial conversion has improved this month.",
+      "The design team already approved new pricing page copy."
+    ],
+    "expected_latest_facts": [
+      "Enterprise self-serve is blocked until a security review completes in August.",
+      "Large inbound accounts now require an assisted sales motion until the security review clears."
+    ],
+    "expected_decision_implications": {
+      "recommended_action_keywords": [
+        "route enterprise inbound to assisted sales",
+        "delay enterprise self-serve launch",
+        "keep self-serve limited to smb"
+      ],
+      "stale_action_keywords": [
+        "launch enterprise self-serve in may",
+        "send large inbound accounts into self-serve first"
+      ],
+      "required_rationale_keywords": [
+        "blocked until a security review completes in august",
+        "require an assisted sales motion"
+      ]
+    }
+  },
+  {
+    "scenario_id": "icp_buyer_chain_001",
+    "domain": "icp_buyer_chain",
+    "topic": "champion-shift-from-ops-to-finance",
+    "initial_facts": [
+      "Operations managers had been the main champions in the target accounts.",
+      "The team built messaging around workflow speed for operations leaders.",
+      "The pilot proposal was going to be sent to the VP of Operations."
+    ],
+    "updates": [
+      {
+        "old_fact": "Operations managers had been the main champions in the target accounts.",
+        "new_fact": "Finance directors are now the active economic buyers and final approvers."
+      },
+      {
+        "old_fact": "The team built messaging around workflow speed for operations leaders.",
+        "new_fact": "Current deal reviews prioritize budget control and payback period over workflow speed."
+      }
+    ],
+    "distractors": [
+      "Operations users still like the product demo.",
+      "A prior champion from operations is still willing to introduce the team."
+    ],
+    "expected_latest_facts": [
+      "Finance directors are now the active economic buyers and final approvers.",
+      "Current deal reviews prioritize budget control and payback period over workflow speed."
+    ],
+    "expected_decision_implications": {
+      "recommended_action_keywords": [
+        "rewrite the proposal for finance",
+        "lead with roi and payback period",
+        "sell through finance directors"
+      ],
+      "stale_action_keywords": [
+        "send the pilot proposal to the vp of operations",
+        "lead with workflow speed for operations"
+      ],
+      "required_rationale_keywords": [
+        "finance directors are now the active economic buyers",
+        "prioritize budget control",
+        "payback period"
+      ]
+    }
+  },
+  {
+    "scenario_id": "icp_buyer_chain_002",
+    "domain": "icp_buyer_chain",
+    "topic": "it-becomes-required-gatekeeper",
+    "initial_facts": [
+      "Department heads could approve pilots without central IT.",
+      "The team planned to close with a director-level business owner.",
+      "Security review was considered optional for pilot accounts."
+    ],
+    "updates": [
+      {
+        "old_fact": "Department heads could approve pilots without central IT.",
+        "new_fact": "Central IT now requires a formal integration review before any pilot can start."
+      },
+      {
+        "old_fact": "Security review was considered optional for pilot accounts.",
+        "new_fact": "Security and integration sign-off are now mandatory entry gates for pilot approval."
+      }
+    ],
+    "distractors": [
+      "Business owners still want the product quickly.",
+      "The original director champion is still supportive."
+    ],
+    "expected_latest_facts": [
+      "Central IT now requires a formal integration review before any pilot can start.",
+      "Security and integration sign-off are now mandatory entry gates for pilot approval."
+    ],
+    "expected_decision_implications": {
+      "recommended_action_keywords": [
+        "engage central it early",
+        "add a security and integration review step",
+        "treat it as a required gatekeeper"
+      ],
+      "stale_action_keywords": [
+        "close with only the business owner",
+        "skip central it",
+        "treat security review as optional"
+      ],
+      "required_rationale_keywords": [
+        "formal integration review",
+        "mandatory entry gates",
+        "central it"
+      ]
+    }
+  },
+  {
+    "scenario_id": "competitor_signal_001",
+    "domain": "competitor_market_signal",
+    "topic": "competitor-drops-price-first",
+    "initial_facts": [
+      "The sales team believed premium positioning would hold against the main competitor.",
+      "The default recommendation was to keep current list pricing.",
+      "Prospects were thought to value advanced analytics enough to ignore moderate price gaps."
+    ],
+    "updates": [
+      {
+        "old_fact": "The default recommendation was to keep current list pricing.",
+        "new_fact": "The main competitor just launched a 30% lower entry-tier offer for the same buyer segment."
+      },
+      {
+        "old_fact": "Prospects were thought to value advanced analytics enough to ignore moderate price gaps.",
+        "new_fact": "Recent loss reviews show price sensitivity now dominates advanced analytics in this segment."
+      }
+    ],
+    "distractors": [
+      "A legacy customer still praised the analytics dashboard.",
+      "Analyst coverage still describes the product as feature-rich."
+    ],
+    "expected_latest_facts": [
+      "The main competitor just launched a 30% lower entry-tier offer for the same buyer segment.",
+      "Recent loss reviews show price sensitivity now dominates advanced analytics in this segment."
+    ],
+    "expected_decision_implications": {
+      "recommended_action_keywords": [
+        "adjust the entry offer",
+        "create a competitive pricing response",
+        "tighten packaging for the price-sensitive segment"
+      ],
+      "stale_action_keywords": [
+        "keep current list pricing unchanged",
+        "rely on premium positioning alone"
+      ],
+      "required_rationale_keywords": [
+        "30% lower entry-tier offer",
+        "price sensitivity now dominates"
+      ]
+    }
+  },
+  {
+    "scenario_id": "competitor_signal_002",
+    "domain": "competitor_market_signal",
+    "topic": "market-shift-to-compliance-priority",
+    "initial_facts": [
+      "The team had prioritized speed and user experience in upcoming messaging.",
+      "The main landing page draft led with faster deployment.",
+      "Competitor monitoring did not show compliance as a major purchase driver."
+    ],
+    "updates": [
+      {
+        "old_fact": "Competitor monitoring did not show compliance as a major purchase driver.",
+        "new_fact": "A new industry policy change made auditability and compliance reporting the top purchase criterion."
+      },
+      {
+        "old_fact": "The team had prioritized speed and user experience in upcoming messaging.",
+        "new_fact": "Buyers now ask first about compliance evidence and audit logs before speed claims."
+      }
+    ],
+    "distractors": [
+      "Users still compliment the fast onboarding flow.",
+      "The product team still prefers the current landing page headline."
+    ],
+    "expected_latest_facts": [
+      "A new industry policy change made auditability and compliance reporting the top purchase criterion.",
+      "Buyers now ask first about compliance evidence and audit logs before speed claims."
+    ],
+    "expected_decision_implications": {
+      "recommended_action_keywords": [
+        "lead with compliance",
+        "move auditability to the top of messaging",
+        "update the landing page around compliance evidence"
+      ],
+      "stale_action_keywords": [
+        "keep leading with faster deployment",
+        "prioritize speed-first messaging"
+      ],
+      "required_rationale_keywords": [
+        "top purchase criterion",
+        "compliance evidence",
+        "audit logs"
+      ]
+    }
+  }
+]

@@ -1,0 +1,36 @@
+===== icp_buyer_chain_001 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: icp_buyer_chain_001
+Domain: icp_buyer_chain
+Topic: champion-shift-from-ops-to-finance
+
+Initial facts:
+- Operations managers had been the main champions in the target accounts.
+- The team built messaging around workflow speed for operations leaders.
+- The pilot proposal was going to be sent to the VP of Operations.
+
+Updates:
+- {'old_fact': 'Operations managers had been the main champions in the target accounts.', 'new_fact': 'Finance directors are now the active economic buyers and final approvers.'}
+- {'old_fact': 'The team built messaging around workflow speed for operations leaders.', 'new_fact': 'Current deal reviews prioritize budget control and payback period over workflow speed.'}
+
+Distractors:
+- Operations users still like the product demo.
+- A prior champion from operations is still willing to introduce the team.
+
+Final task:
+Give the final recommendation based on the latest facts.
+Include:
+- recommended option
+- rejected options
+- why chosen
+- why not chosen
+- resource implications
+- execution risks
+- 90-day action plan
+
+Important:
+Use the latest updated facts. Do not rely on superseded facts.
+Make it clear which updated facts drove the final recommendation.

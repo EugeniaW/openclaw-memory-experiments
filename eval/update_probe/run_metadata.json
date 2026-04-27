@@ -1,0 +1,8 @@
+{
+  "run_id": "update-probe-20260427T043411Z",
+  "mode": "cli",
+  "started_at": "2026-04-27T04:34:11.261618+00:00",
+  "ended_at": "2026-04-27T04:35:00.975174+00:00",
+  "scenario_count": 6,
+  "command": "scripts/run_update_probe.py --mode cli --cli-command codex exec \"Answer the prompt from stdin. Use the latest updated facts, ignore superseded facts, and give a final decision recommendation.\""
+}
