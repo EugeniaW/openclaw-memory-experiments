@@ -1,0 +1,36 @@
+===== gtm_constraints_001 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: gtm_constraints_001
+Domain: gtm_constraints
+Topic: eu-market-entry-budget-freeze
+
+Initial facts:
+- The team planned to launch a Germany outbound campaign in Q3.
+- The paid acquisition budget for Germany was approved at $180000.
+- The plan depended on field events and SDR hiring in Germany.
+
+Updates:
+- {'old_fact': 'The paid acquisition budget for Germany was approved at $180000.', 'new_fact': 'The Germany expansion budget is now frozen at $0 for the next two quarters.'}
+- {'old_fact': 'The plan depended on field events and SDR hiring in Germany.', 'new_fact': 'The team must avoid net-new SDR hiring and field events in Germany until the freeze lifts.'}
+
+Distractors:
+- Brand awareness in Germany is still rising quarter over quarter.
+- A reseller prospect asked for a follow-up deck.
+
+Final task:
+Give the final recommendation based on the latest facts.
+Include:
+- recommended option
+- rejected options
+- why chosen
+- why not chosen
+- resource implications
+- execution risks
+- 90-day action plan
+
+Important:
+Use the latest updated facts. Do not rely on superseded facts.
+Make it clear which updated facts drove the final recommendation.

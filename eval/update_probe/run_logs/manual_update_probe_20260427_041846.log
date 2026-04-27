@@ -1,0 +1,354 @@
+Script started on 2026-04-27 04:18:46+00:00 [COMMAND="python3 scripts/run_update_probe.py --mode manual" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+
+===== gtm_constraints_001 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: gtm_constraints_001
+Domain: gtm_constraints
+Topic: eu-market-entry-budget-freeze
+
+Initial facts:
+- The team planned to launch a Germany outbound campaign in Q3.
+- The paid acquisition budget for Germany was approved at $180000.
+- The plan depended on field events and SDR hiring in Germany.
+
+Updated facts:
+- The Germany expansion budget is now frozen at $0 for the next two quarters.
+- The team must avoid net-new SDR hiring and field events in Germany until the freeze lifts.
+
+Distractors:
+- Brand awareness in Germany is still rising quarter over quarter.
+- A reseller prospect asked for a follow-up deck.
+
+Task: recommend the next business decision.
+Return exactly these sections:
+## Latest Facts
+- List the newest facts you are using.
+## Decision
+- Give one clear recommendation.
+## Rationale
+- Explain why the latest facts change the decision.
+## Stale Facts To Avoid
+- Name any earlier assumptions that should no longer drive the decision.
+
+Paste the model response for gtm_constraints_001. End with a line containing only __END__.
+Latest Facts
+
+• The Germany expansion budget is now frozen at $0 for the next two quarters.
+• The team must avoid net-new SDR hiring and field events in Germany until the freeze lifts.
+
+Decision
+
+• Do not proceed with the planned Germany outbound launch in Q3; switch to a no-budget Germany holding plan focused on lightweight partner/inbound follow-up only until the freeze lifts.
+
+Rationale
+
+• The original launch depended on paid acquisition, field events, and SDR hiring.
+• The newest facts remove all three enabling conditions:
+• budget is now $0
+• net-new SDR hiring is not allowed
+• field events are not allowed
+• That means the original Germany launch plan is no longer executable.
+• A constrained holding pattern is the correct next decision because it preserves optionality without violating the current operating constraints.
+
+Stale Facts To Avoid
+
+• The paid acquisition budget for Germany was approved at $180000.
+• The plan depended on field events and SDR hiring in Germany.
+• The earlier assumption that a full Germany outbound campaign could launch in Q3 under the original resource plan.__END__
+__END__
+saved eval/update_probe/raw/gtm_constraints_001.json
+
+===== gtm_constraints_002 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: gtm_constraints_002
+Domain: gtm_constraints
+Topic: security-review-blocks-self-serve
+
+Initial facts:
+- The GTM team planned to push a self-serve launch for enterprise prospects in May.
+- The pricing page and in-product checkout were considered launch-ready.
+- Sales planned to route large inbound accounts into the self-serve funnel first.
+
+Updated facts:
+- Enterprise self-serve is blocked until a security review completes in August.
+- Large inbound accounts now require an assisted sales motion until the security review clears.
+
+Distractors:
+- SMB trial conversion has improved this month.
+- The design team already approved new pricing page copy.
+
+Task: recommend the next business decision.
+Return exactly these sections:
+## Latest Facts
+- List the newest facts you are using.
+## Decision
+- Give one clear recommendation.
+## Rationale
+- Explain why the latest facts change the decision.
+## Stale Facts To Avoid
+- Name any earlier assumptions that should no longer drive the decision.
+
+Paste the model response for gtm_constraints_002. End with a line containing only __END__.
+Latest Facts
+
+• Enterprise self-serve is blocked until a security review completes in August.
+• Large inbound accounts now require an assisted sales motion until the security review clears.
+
+Decision
+
+• Do not launch enterprise self-serve in May; move enterprise demand handling to an assisted sales motion until the security review is completed.
+
+Rationale
+
+• The updated facts directly block enterprise self-serve before August.
+• They also explicitly change the routing rule for large inbound accounts from self-serve-first to assisted sales.
+• That means the prior launch plan is no longer operationally valid, even if pricing and checkout were previously considered ready.
+• The correct next decision is to pause enterprise self-serve launch activity and realign GTM around assisted handling for enterprise prospects.
+
+Stale Facts To Avoid
+
+• The GTM team planned to push a self-serve launch for enterprise prospects in May.
+• The pricing page and in-product checkout were considered launch-ready.
+• Sales planned to route large inbound accounts into the self-serve funnel first.
+__END__
+saved eval/update_probe/raw/gtm_constraints_002.json
+
+===== icp_buyer_chain_001 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: icp_buyer_chain_001
+Domain: icp_buyer_chain
+Topic: champion-shift-from-ops-to-finance
+
+Initial facts:
+- Operations managers had been the main champions in the target accounts.
+- The team built messaging around workflow speed for operations leaders.
+- The pilot proposal was going to be sent to the VP of Operations.
+
+Updated facts:
+- Finance directors are now the active economic buyers and final approvers.
+- Current deal reviews prioritize budget control and payback period over workflow speed.
+
+Distractors:
+- Operations users still like the product demo.
+- A prior champion from operations is still willing to introduce the team.
+
+Task: recommend the next business decision.
+Return exactly these sections:
+## Latest Facts
+- List the newest facts you are using.
+## Decision
+- Give one clear recommendation.
+## Rationale
+- Explain why the latest facts change the decision.
+## Stale Facts To Avoid
+- Name any earlier assumptions that should no longer drive the decision.
+
+Paste the model response for icp_buyer_chain_001. End with a line containing only __END__.
+Latest Facts
+
+• Finance directors are now the active economic buyers and final approvers.
+• Current deal reviews prioritize budget control and payback period over workflow speed.
+
+Decision
+
+• Reposition the deal around a finance-first buying case and send the next proposal to finance decision-makers, with operations used as internal supporters rather than primary champions.
+
+Rationale
+
+• The updated facts change both the buyer and the evaluation criteria.
+• The main decision power has shifted from operations to finance.
+• The core message must therefore shift from workflow speed to budget control, ROI, and payback period.
+• Continuing to lead with an operations-first proposal would misalign with the actual approval path and reduce the chance of closing.
+
+Stale Facts To Avoid
+
+• Operations managers had been the main champions in the target accounts.
+• The team built messaging around workflow speed for operations leaders.
+• The pilot proposal was going to be sent to the VP of Operations.
+__END__
+saved eval/update_probe/raw/icp_buyer_chain_001.json
+
+===== icp_buyer_chain_002 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: icp_buyer_chain_002
+Domain: icp_buyer_chain
+Topic: it-becomes-required-gatekeeper
+
+Initial facts:
+- Department heads could approve pilots without central IT.
+- The team planned to close with a director-level business owner.
+- Security review was considered optional for pilot accounts.
+
+Updated facts:
+- Central IT now requires a formal integration review before any pilot can start.
+- Security and integration sign-off are now mandatory entry gates for pilot approval.
+
+Distractors:
+- Business owners still want the product quickly.
+- The original director champion is still supportive.
+
+Task: recommend the next business decision.
+Return exactly these sections:
+## Latest Facts
+- List the newest facts you are using.
+## Decision
+- Give one clear recommendation.
+## Rationale
+- Explain why the latest facts change the decision.
+## Stale Facts To Avoid
+- Name any earlier assumptions that should no longer drive the decision.
+
+Paste the model response for icp_buyer_chain_002. End with a line containing only __END__.
+Latest Facts
+
+• Central IT now requires a formal integration review before any pilot can start.
+• Security and integration sign-off are now mandatory entry gates for pilot approval.
+
+Decision
+
+• Stop treating the director-level business owner as sufficient for pilot approval and shift immediately to an IT-led pilot approval path with formal security and integration review built into the deal process.
+
+Rationale
+
+• The updated facts change the approval workflow from business-led to gatekeeper-led.
+• A pilot can no longer start based on business-owner support alone.
+• Security and integration review are now mandatory prerequisites, not optional follow-ups.
+• That means the next business decision should be to re-sequence the deal around IT approval first, or at least in parallel, before treating the pilot as closeable.
+
+Stale Facts To Avoid
+
+• Department heads could approve pilots without central IT.
+• The team planned to close with a director-level business owner.
+• Security review was considered optional for pilot accounts.
+__END__
+saved eval/update_probe/raw/icp_buyer_chain_002.json
+
+===== competitor_signal_001 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: competitor_signal_001
+Domain: competitor_market_signal
+Topic: competitor-drops-price-first
+
+Initial facts:
+- The sales team believed premium positioning would hold against the main competitor.
+- The default recommendation was to keep current list pricing.
+- Prospects were thought to value advanced analytics enough to ignore moderate price gaps.
+
+Updated facts:
+- The main competitor just launched a 30% lower entry-tier offer for the same buyer segment.
+- Recent loss reviews show price sensitivity now dominates advanced analytics in this segment.
+
+Distractors:
+- A legacy customer still praised the analytics dashboard.
+- Analyst coverage still describes the product as feature-rich.
+
+Task: recommend the next business decision.
+Return exactly these sections:
+## Latest Facts
+- List the newest facts you are using.
+## Decision
+- Give one clear recommendation.
+## Rationale
+- Explain why the latest facts change the decision.
+## Stale Facts To Avoid
+- Name any earlier assumptions that should no longer drive the decision.
+
+Paste the model response for competitor_signal_001. End with a line containing only __END__.
+Latest Facts
+
+• The main competitor just launched a 30% lower entry-tier offer for the same buyer segment.
+• Recent loss reviews show price sensitivity now dominates advanced analytics in this segment.
+
+Decision
+
+• Do not keep the current default list-pricing stance for this segment; immediately revise the entry-tier commercial strategy to address price sensitivity directly.
+
+Rationale
+
+• The updated facts show that the competitive context has changed materially.
+• A 30% lower competitor offer in the same segment raises the price gap from moderate to strategically important.
+• Loss reviews confirm that buyers in this segment are now prioritizing price over advanced analytics.
+• That means the prior assumption that premium positioning alone would hold is no longer valid for this buyer group, and the next decision should shift from defending price to adapting the entry-tier offer.
+
+Stale Facts To Avoid
+
+• The sales team believed premium positioning would hold against the main competitor.
+• The default recommendation was to keep current list pricing.
+• Prospects were thought to value advanced analytics enough to ignore moderate price gaps.
+__END__
+saved eval/update_probe/raw/competitor_signal_001.json
+
+===== competitor_signal_002 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: competitor_signal_002
+Domain: competitor_market_signal
+Topic: market-shift-to-compliance-priority
+
+Initial facts:
+- The team had prioritized speed and user experience in upcoming messaging.
+- The main landing page draft led with faster deployment.
+- Competitor monitoring did not show compliance as a major purchase driver.
+
+Updated facts:
+- A new industry policy change made auditability and compliance reporting the top purchase criterion.
+- Buyers now ask first about compliance evidence and audit logs before speed claims.
+
+Distractors:
+- Users still compliment the fast onboarding flow.
+- The product team still prefers the current landing page headline.
+
+Task: recommend the next business decision.
+Return exactly these sections:
+## Latest Facts
+- List the newest facts you are using.
+## Decision
+- Give one clear recommendation.
+## Rationale
+- Explain why the latest facts change the decision.
+## Stale Facts To Avoid
+- Name any earlier assumptions that should no longer drive the decision.
+
+Paste the model response for competitor_signal_002. End with a line containing only __END__.
+Latest Facts
+
+• A new industry policy change made auditability and compliance reporting the top purchase criterion.
+• Buyers now ask first about compliance evidence and audit logs before speed claims.
+
+Decision
+
+• Reposition the upcoming messaging and landing page immediately around compliance, auditability, and reporting rather than speed-first deployment.
+
+Rationale
+
+• The updated facts show that buyer priorities have changed at the category level.
+• Compliance is no longer secondary; it is now the top purchase criterion.
+• Buyer conversations now begin with compliance evidence and audit logs, which means the current speed-first message is misaligned with how decisions are being made.
+• The next business decision should therefore be to shift the market-facing narrative to compliance-first so the team matches the actual buying sequence.
+
+Stale Facts To Avoid
+
+• The team had prioritized speed and user experience in upcoming messaging.
+• The main landing page draft led with faster deployment.
+• Competitor monitoring did not show compliance as a major purchase driver.
+__END__
+saved eval/update_probe/raw/competitor_signal_002.json
+
+Script done on 2026-04-27 04:23:35+00:00 [COMMAND_EXIT_CODE="0"]

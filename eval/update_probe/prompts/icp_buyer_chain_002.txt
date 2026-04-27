@@ -1,0 +1,36 @@
+===== icp_buyer_chain_002 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: icp_buyer_chain_002
+Domain: icp_buyer_chain
+Topic: it-becomes-required-gatekeeper
+
+Initial facts:
+- Department heads could approve pilots without central IT.
+- The team planned to close with a director-level business owner.
+- Security review was considered optional for pilot accounts.
+
+Updates:
+- {'old_fact': 'Department heads could approve pilots without central IT.', 'new_fact': 'Central IT now requires a formal integration review before any pilot can start.'}
+- {'old_fact': 'Security review was considered optional for pilot accounts.', 'new_fact': 'Security and integration sign-off are now mandatory entry gates for pilot approval.'}
+
+Distractors:
+- Business owners still want the product quickly.
+- The original director champion is still supportive.
+
+Final task:
+Give the final recommendation based on the latest facts.
+Include:
+- recommended option
+- rejected options
+- why chosen
+- why not chosen
+- resource implications
+- execution risks
+- 90-day action plan
+
+Important:
+Use the latest updated facts. Do not rely on superseded facts.
+Make it clear which updated facts drove the final recommendation.

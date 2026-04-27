@@ -1,0 +1,36 @@
+===== competitor_signal_001 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: competitor_signal_001
+Domain: competitor_market_signal
+Topic: competitor-drops-price-first
+
+Initial facts:
+- The sales team believed premium positioning would hold against the main competitor.
+- The default recommendation was to keep current list pricing.
+- Prospects were thought to value advanced analytics enough to ignore moderate price gaps.
+
+Updates:
+- {'old_fact': 'The default recommendation was to keep current list pricing.', 'new_fact': 'The main competitor just launched a 30% lower entry-tier offer for the same buyer segment.'}
+- {'old_fact': 'Prospects were thought to value advanced analytics enough to ignore moderate price gaps.', 'new_fact': 'Recent loss reviews show price sensitivity now dominates advanced analytics in this segment.'}
+
+Distractors:
+- A legacy customer still praised the analytics dashboard.
+- Analyst coverage still describes the product as feature-rich.
+
+Final task:
+Give the final recommendation based on the latest facts.
+Include:
+- recommended option
+- rejected options
+- why chosen
+- why not chosen
+- resource implications
+- execution risks
+- 90-day action plan
+
+Important:
+Use the latest updated facts. Do not rely on superseded facts.
+Make it clear which updated facts drove the final recommendation.
