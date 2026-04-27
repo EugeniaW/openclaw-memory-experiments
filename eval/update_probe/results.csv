@@ -1,7 +1,7 @@
 scenario_id,domain,mode,latest_fact_fidelity,stale_fact_usage,decision_use_rate,contradiction_count,update_sensitivity,storage_failure,application_failure,consistency_failure,raw_output_path
-gtm_constraints_001,gtm_constraints,manual,1.0,1.0,0,2,0,0,1,1,eval/update_probe/raw/gtm_constraints_001.json
-gtm_constraints_002,gtm_constraints,manual,1.0,1.0,0,2,0,0,1,1,eval/update_probe/raw/gtm_constraints_002.json
-icp_buyer_chain_001,icp_buyer_chain,manual,1.0,1.0,0,2,0,0,1,1,eval/update_probe/raw/icp_buyer_chain_001.json
-icp_buyer_chain_002,icp_buyer_chain,manual,1.0,1.0,0,2,0,0,1,1,eval/update_probe/raw/icp_buyer_chain_002.json
-competitor_signal_001,competitor_market_signal,manual,1.0,1.0,0,2,0,0,1,1,eval/update_probe/raw/competitor_signal_001.json
-competitor_signal_002,competitor_market_signal,manual,1.0,1.0,0,2,0,0,1,1,eval/update_probe/raw/competitor_signal_002.json
+gtm_constraints_001,gtm_constraints,cli,1.0,0.0,0,0,0,0,1,0,eval/update_probe/raw/gtm_constraints_001.json
+gtm_constraints_002,gtm_constraints,cli,1.0,0.0,0,0,0,0,1,0,eval/update_probe/raw/gtm_constraints_002.json
+icp_buyer_chain_001,icp_buyer_chain,cli,1.0,0.0,0,0,0,0,1,0,eval/update_probe/raw/icp_buyer_chain_001.json
+icp_buyer_chain_002,icp_buyer_chain,cli,1.0,0.0,0,0,0,0,1,0,eval/update_probe/raw/icp_buyer_chain_002.json
+competitor_signal_001,competitor_market_signal,cli,1.0,0.0,0,0,0,0,1,0,eval/update_probe/raw/competitor_signal_001.json
+competitor_signal_002,competitor_market_signal,cli,1.0,0.0,1,0,1,0,0,0,eval/update_probe/raw/competitor_signal_002.json

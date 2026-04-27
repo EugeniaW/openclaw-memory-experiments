@@ -1,0 +1,48 @@
+Script started on 2026-04-27 04:28:42+00:00 [COMMAND="python3 scripts/run_update_probe.py --mode manual" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+
+===== gtm_constraints_001 =====
+You are reviewing a business situation with updated facts.
+Use the latest updates when making the final recommendation.
+Do not rely on superseded facts.
+
+Scenario ID: gtm_constraints_001
+Domain: gtm_constraints
+Topic: eu-market-entry-budget-freeze
+
+Initial facts:
+- The team planned to launch a Germany outbound campaign in Q3.
+- The paid acquisition budget for Germany was approved at $180000.
+- The plan depended on field events and SDR hiring in Germany.
+
+Updated facts:
+- The Germany expansion budget is now frozen at $0 for the next two quarters.
+- The team must avoid net-new SDR hiring and field events in Germany until the freeze lifts.
+
+Distractors:
+- Brand awareness in Germany is still rising quarter over quarter.
+- A reseller prospect asked for a follow-up deck.
+
+Task: recommend the next business decision.
+Return exactly these sections:
+## Latest Facts
+- List the newest facts you are using.
+## Decision
+- Give one clear recommendation.
+## Rationale
+- Explain why the latest facts change the decision.
+## Stale Facts To Avoid
+- Name any earlier assumptions that should no longer drive the decision.
+
+Paste the model response for gtm_constraints_001. End with a line containing only __END__.
+^CTraceback (most recent call last):
+  File "/home/gina/openclaw-memory-experiments/scripts/run_update_probe.py", line 271, in <module>
+    main()
+  File "/home/gina/openclaw-memory-experiments/scripts/run_update_probe.py", line 248, in main
+    run_scenarios(
+  File "/home/gina/openclaw-memory-experiments/scripts/run_update_probe.py", line 188, in run_scenarios
+    response, prompt_shown_at, response_started_at, response_ended_at = read_manual_response(
+  File "/home/gina/openclaw-memory-experiments/scripts/run_update_probe.py", line 106, in read_manual_response
+    line = input()
+KeyboardInterrupt
+
+Script done on 2026-04-27 04:30:52+00:00 [COMMAND_EXIT_CODE="130"]

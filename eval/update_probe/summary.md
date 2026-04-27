@@ -1,6 +1,6 @@
 # Temporal Update + Decision Utility Probe Summary
 
-Generated: 2026-04-27 04:24 UTC
+Generated: 2026-04-27 04:46 UTC
 
 ## Scope
 
@@ -11,16 +11,16 @@ Generated: 2026-04-27 04:24 UTC
 
 - Scenarios scored: 6
 - Average latest fact fidelity: 1.0
-- Average stale fact usage: 1.0
-- Decision use rate: 0.0
-- Total contradiction count: 12
-- Update sensitivity: 0.0
+- Average stale fact usage: 0.0
+- Decision use rate: 0.167
+- Total contradiction count: 0
+- Update sensitivity: 0.167
 
 ## Failure Signals
 
 - Storage failures: 0
-- Application failures: 6
-- Consistency failures: 6
+- Application failures: 5
+- Consistency failures: 0
 
 ## Traceability
 
